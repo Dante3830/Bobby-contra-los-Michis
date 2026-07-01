@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bxh4hmvce6rwx"]
+
+[ext_resource type="Script" uid="uid://dxw48fppkp5ow" path="res://Scripts/bobby.gd" id="1_u6fgj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h61v7"]
+size = Vector2(40, 40)
+
+[node name="Bobby" type="CharacterBody2D" unique_id=100397526]
+motion_mode = 1
+script = ExtResource("1_u6fgj")
+
+[node name="Panel" type="Panel" parent="." unique_id=992509358]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2005764185]
+position = Vector2(20, 20)
+shape = SubResource("RectangleShape2D_h61v7")
