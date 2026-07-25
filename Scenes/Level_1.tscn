@@ -5,3 +5,4 @@
 [node name="Level 1" type="Node2D" unique_id=1415486013]
 
 [node name="Bobby" parent="." unique_id=100397526 instance=ExtResource("1_oiua3")]
+position = Vector2(555, 313)
